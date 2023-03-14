@@ -1,4 +1,4 @@
-package com.pms.userapi.service.exception;
+package com.pms.userapi.exception;
 
 public class ObjectNotFoundException extends RuntimeException{
 
