@@ -1,19 +1,9 @@
-package com.pms.userapi.entity;
-
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+package com.pms.payrollapi.entity;
 
 import java.util.Objects;
 
-
-
-@Entity(name = "tb_user")
 public class User {
-	
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Long id;
     private String name;
     private String email;
