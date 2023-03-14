@@ -9,13 +9,16 @@ public class Payroll {
 	private Double workedHours;
 	private Double totalPayment;
 	
-	public Payroll(String workerName, String description, Double priceHour, Double workedHours) {
+	
+	
+	public Payroll(String workerName, String description, Double priceHour, Double workedHours, Double totalPayment) {
 		this.workerName = workerName;
 		this.description = description;
 		this.priceHour = priceHour;
 		this.workedHours = workedHours;
+		this.totalPayment = totalPayment;
 	}
-
+	
 	public String getWorkerName() {
 		return workerName;
 	}
@@ -55,5 +58,6 @@ public class Payroll {
 	public void setTotalPayment(Double totalPayment) {
 		this.totalPayment = totalPayment;
 	}
+	
 	
 }
