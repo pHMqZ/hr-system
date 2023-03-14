@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.pms.payrollapi.entity.User;
 
-@FeignClient(name = "user-api", url = "http://localhost:8000")
+@FeignClient(name = "user-api")
 public interface UserFeign {
 	
 	@GetMapping("/api/users/{id}")
